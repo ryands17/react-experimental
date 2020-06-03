@@ -12,11 +12,27 @@
     "@testing-library/react": "^10.0.3",
     "@types/react": "^16.9.35",
     "@types/react-dom": "^16.9.8",
+    "autoprefixer": "^9.8.0",
     "jest": "^25.4.0",
+    "postcss": "^7.0.32",
+    "postcss-cli": "^7.1.1",
+    "postcss-import": "^12.0.1",
+    "postcss-preset-env": "^6.7.0",
     "prettier": "^2.0.0",
-    "react": "^16.13.0",
-    "react-dom": "^16.13.0",
+    "react": "^0.0.0-experimental-33c3af284",
+    "react-dom": "^0.0.0-experimental-33c3af284",
     "snowpack": "^2.0.0",
     "typescript": "^3.8.0"
+  },
+  "prettier": {
+    "semi": false,
+    "singleQuote": true,
+    "arrowParens": "avoid"
+  },
+  "dependencies": {
+    "react-router": "^6.0.0-alpha.5",
+    "react-router-dom": "^6.0.0-alpha.5",
+    "tailwindcss": "^1.4.6",
+    "tailwindcss-classnames": "^1.3.6"
   }
 }
