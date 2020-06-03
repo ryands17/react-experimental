@@ -6,9 +6,7 @@ import { classnames } from 'tailwindcss-classnames'
 // import logo from './logo.svg'
 // import './App.css'
 
-interface AppProps {}
-
-function App({}: AppProps) {
+function App() {
   return (
     <>
       <h3 className={classnames('text-3xl')}>Snowpack + React</h3>
