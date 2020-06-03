@@ -1,5 +1,6 @@
 .build
 build
+coverage/
 web_modules
 node_modules
 .env
