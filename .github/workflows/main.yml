@@ -42,6 +42,6 @@ jobs:
         uses: cypress-io/github-action@v1
         with:
           record: false
-          env: CYPRESS_HOST=http://localhost:5000
+          env: HOST=http://localhost:5000
           start: serve -s build
           wait-on: http://localhost:5000
