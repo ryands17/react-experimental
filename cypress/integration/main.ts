@@ -1,4 +1,4 @@
 it('checks if the home page works', () => {
-  cy.visit('http://localhost:5000/')
+  cy.visit(Cypress.env('HOST'))
   cy.contains('Home Page', { matchCase: false })
 })

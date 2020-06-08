@@ -41,5 +41,7 @@ jobs:
       - name: Run E2E Tests
         uses: cypress-io/github-action@v1
         with:
+          record: false
+          env: CYPRESS_HOST=http://localhost:5000
           start: serve -s build
           wait-on: http://localhost:5000
