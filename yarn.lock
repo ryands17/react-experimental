@@ -1423,9 +1423,9 @@
     "@sinonjs/commons" "^1.7.0"
 
 "@snowpack/app-scripts-react@^1.1.0":
-  version "1.1.0"
-  resolved "https://registry.yarnpkg.com/@snowpack/app-scripts-react/-/app-scripts-react-1.1.0.tgz#966c5f6844f846a94d437dfadf72f6cb9e8c062d"
-  integrity sha512-mBjWsw3p1Y0eEsONFq3k7qqiD53Y9gxAe36VuxolxXYILVL/i2Y8BevRyzIgOEmHgFh8yR213jsRuqJnN1A2+w==
+  version "1.1.4"
+  resolved "https://registry.yarnpkg.com/@snowpack/app-scripts-react/-/app-scripts-react-1.1.4.tgz#f753e563381c998e64d8eb3703dbf3abb0c2acee"
+  integrity sha512-qOiAx8FJ0x4PKdR2piUKnXdfPyAhwaLCSkZYONCcpZFLZDLV/SCzSZZ1fHyrhEi5Lp7Gf5EZ6FyZ+oNcWnNdeQ==
   dependencies:
     "@babel/core" "^7.0.0"
     "@babel/plugin-syntax-import-meta" "^7.8.3"
