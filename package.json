@@ -3,6 +3,7 @@
     "start": "snowpack dev",
     "build": "snowpack build",
     "test": "jest",
+    "cy:open": "cypress open",
     "format": "prettier --write \"src/**/*.{js,jsx,ts,tsx}\"",
     "lint": "eslint 'src/**/*.{ts,tsx}'"
   },
@@ -16,6 +17,7 @@
     "@typescript-eslint/parser": "2.x",
     "autoprefixer": "^9.8.0",
     "babel-eslint": "10.x",
+    "cypress": "^4.7.0",
     "eslint": "6.x",
     "eslint-config-react-app": "^5.2.1",
     "eslint-plugin-flowtype": "4.x",
