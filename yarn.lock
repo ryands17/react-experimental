@@ -1423,24 +1423,24 @@
     "@sinonjs/commons" "^1.7.0"
 
 "@snowpack/app-scripts-react@^1.1.0":
-  version "1.2.0"
-  resolved "https://registry.yarnpkg.com/@snowpack/app-scripts-react/-/app-scripts-react-1.2.0.tgz#69d9c825f8b1dfedee0c9219a4a9cffbd119b697"
-  integrity sha512-nbHLle87C3dfa1za5mAQmdCDiJSMeyOjuSsfz2zwbdFLjZWMwRjaVuHjVLWYD/D2IBWxa/h8zq/RYsAMxMLlRA==
+  version "1.4.0"
+  resolved "https://registry.yarnpkg.com/@snowpack/app-scripts-react/-/app-scripts-react-1.4.0.tgz#cf8d34b0aa63bf2208950bf93484c3de14c44a93"
+  integrity sha512-vuR+uMdjy9cJhECFvePN4VcpM8iFzXG0QTf9FPT0wLSvbb/eSWuSxAgPXWRddQZrj+DqFlZLFolU3Z0TgiOkuw==
   dependencies:
     "@babel/core" "^7.0.0"
     "@babel/plugin-syntax-import-meta" "^7.8.3"
     "@babel/preset-react" "^7.9.4"
     "@babel/preset-typescript" "^7.9.0"
-    "@snowpack/plugin-babel" "^1.0.0"
+    "@snowpack/plugin-babel" "^1.4.0"
     "@snowpack/plugin-dotenv" "^1.1.0"
     babel-jest "^25.4.0"
     babel-preset-react-app "^9.1.2"
     react-app-polyfill "^1.0.6"
 
-"@snowpack/plugin-babel@^1.0.0":
-  version "1.0.0"
-  resolved "https://registry.yarnpkg.com/@snowpack/plugin-babel/-/plugin-babel-1.0.0.tgz#9bfde573142fafb3bf5abb6cfbb40959551ddf2f"
-  integrity sha512-azuO6Vm8bJXSlCzqEQ5JM7uv+1FtirvDL7ITB5LXL+oPxQUw1D0cTXOJxP52FP/CPpW674qHhVlLbKre5ueg9g==
+"@snowpack/plugin-babel@^1.4.0":
+  version "1.4.0"
+  resolved "https://registry.yarnpkg.com/@snowpack/plugin-babel/-/plugin-babel-1.4.0.tgz#050fb696f4357985187863c24878426009b48014"
+  integrity sha512-kObuiJ49n2fW76cnLvLUasFR70vX98ZNcdvqKHjzNzAFHbi0nT4Qdt8G/y9KAsof3Py7/hLnfgGvLFoOws5Czg==
   dependencies:
     "@babel/core" "^7.9.6"
 
