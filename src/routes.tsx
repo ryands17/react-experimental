@@ -1,5 +1,5 @@
 import { useRoutes } from 'react-router-dom'
-import * as React from 'react'
+import React from 'react'
 
 export const routes = {
   home: {
@@ -20,7 +20,7 @@ const routeEntries = Object.values(routes)
 
 export const Routes = () => {
   const renderRoutes = useRoutes(
-    routeEntries.map((route) => ({
+    routeEntries.map(route => ({
       path: route.path,
       element: <route.element />,
     }))

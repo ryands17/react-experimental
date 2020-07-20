@@ -1,4 +1,4 @@
-import * as React from 'react'
+import React from 'react'
 import { classnames } from 'tailwindcss-classnames'
 import { NavLink } from 'react-router-dom'
 import { routes } from '../routes'
