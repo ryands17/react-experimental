@@ -4,15 +4,15 @@ import React from 'react'
 export const routes = {
   home: {
     path: '/',
-    element: React.lazy(() => import('./pages/home')),
+    element: React.lazy(() => import('~/pages/home')),
   },
   about: {
     path: '/about',
-    element: React.lazy(() => import('./pages/about')),
+    element: React.lazy(() => import('~/pages/about')),
   },
   contact: {
     path: '/contact',
-    element: React.lazy(() => import('./pages/contact')),
+    element: React.lazy(() => import('~/pages/contact')),
   },
 }
 

@@ -5,5 +5,8 @@
     "run:lint": "eslint 'src/**/*.{ts,tsx}'",
     "run:lint::watch": "watch \"eslint 'src/**/*.{ts,tsx}'\" src"
   },
-  "plugins": []
+  "plugins": [],
+  "alias": {
+    "~": "./src"
+  }
 }

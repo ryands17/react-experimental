@@ -1,10 +1,8 @@
 import React from 'react'
-import { Routes } from './routes'
+import { Routes } from '~/routes'
 import { BrowserRouter } from 'react-router-dom'
-import { Nav } from './components/Nav'
+import { Nav } from '~/components/Nav'
 import { classnames } from 'tailwindcss-classnames'
-// import logo from './logo.svg'
-// import './App.css'
 
 function App() {
   return (
