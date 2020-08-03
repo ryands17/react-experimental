@@ -1720,10 +1720,10 @@
   dependencies:
     "@babel/core" "^7.10.5"
 
-"@snowpack/plugin-build-script@^2.0.1":
-  version "2.0.1"
-  resolved "https://registry.yarnpkg.com/@snowpack/plugin-build-script/-/plugin-build-script-2.0.1.tgz#2a5e0f064f5f7c50647d27c15a2ed21abdf99b26"
-  integrity sha512-K+PM4dUKix+MllP6NmG6MdWc6obnlbjKkUMxtnlMR0wj3FNbi6Kl9s7xOiNe9TGC2/hSHKra+hsrBPiZecbT0g==
+"@snowpack/plugin-build-script@^2.0.2":
+  version "2.0.2"
+  resolved "https://registry.yarnpkg.com/@snowpack/plugin-build-script/-/plugin-build-script-2.0.2.tgz#a594169ce984c223ff33d93fd573641195bd49fd"
+  integrity sha512-f9t3HAl2PPEphOqVgaKzPbLKF4OueamrG5yHYLpmB87TAgIfuPx06fjVnHzsvfDNR3eVdHQFz6OIS0BsYfz3eA==
   dependencies:
     execa "^4.0.3"
     npm-run-path "^4.0.1"
@@ -1736,10 +1736,10 @@
     dotenv "^8.2.0"
     dotenv-expand "^5.1.0"
 
-"@snowpack/plugin-run-script@^2.0.1":
-  version "2.0.1"
-  resolved "https://registry.yarnpkg.com/@snowpack/plugin-run-script/-/plugin-run-script-2.0.1.tgz#6557956555d9bf2f65d6d71254b2450fd100106c"
-  integrity sha512-in5c+acsq92CkQ7kqRwfERoXjqRj2OKFfJ2DY9Hv1o/I0+2fIFOdgN1hkH0g5hk61K6aCqDHbUC0gK4bpuYUew==
+"@snowpack/plugin-run-script@^2.0.2":
+  version "2.0.2"
+  resolved "https://registry.yarnpkg.com/@snowpack/plugin-run-script/-/plugin-run-script-2.0.2.tgz#b9aba31b53b9a8514818a1b7c599fa80e4505a06"
+  integrity sha512-ecA14CE8SW34Wm4nwolAfY9CB1RwRogw4zlIboOapoOuYjNBfChz+FmUFraa/I+6AC6OA212R5YC0WZcOcB1nw==
   dependencies:
     execa "^4.0.3"
     npm-run-path "^4.0.1"
@@ -3904,22 +3904,7 @@ execa@1.0.0, execa@^1.0.0:
     signal-exit "^3.0.0"
     strip-eof "^1.0.0"
 
-execa@^4.0.0:
-  version "4.0.2"
-  resolved "https://registry.yarnpkg.com/execa/-/execa-4.0.2.tgz#ad87fb7b2d9d564f70d2b62d511bee41d5cbb240"
-  integrity sha512-QI2zLa6CjGWdiQsmSkZoGtDx2N+cQIGb3yNolGTdjSQzydzLgYYf8LRuagp7S7fPimjcrzUDSUFd/MgzELMi4Q==
-  dependencies:
-    cross-spawn "^7.0.0"
-    get-stream "^5.0.0"
-    human-signals "^1.1.1"
-    is-stream "^2.0.0"
-    merge-stream "^2.0.0"
-    npm-run-path "^4.0.0"
-    onetime "^5.1.0"
-    signal-exit "^3.0.2"
-    strip-final-newline "^2.0.0"
-
-execa@^4.0.3:
+execa@^4.0.0, execa@^4.0.3:
   version "4.0.3"
   resolved "https://registry.yarnpkg.com/execa/-/execa-4.0.3.tgz#0a34dabbad6d66100bd6f2c576c8669403f317f2"
   integrity sha512-WFDXGHckXPWZX19t1kCsXzOpqX9LWYNqn4C+HqZlk/V0imTkzJZqf87ZBhvpHaftERYknpk0fjSylnXVlVgI0A==
@@ -7742,9 +7727,9 @@ snapdragon@^0.8.1:
     use "^3.1.0"
 
 snowpack@^2.7.4:
-  version "2.7.4"
-  resolved "https://registry.yarnpkg.com/snowpack/-/snowpack-2.7.4.tgz#509fb9ad430ac2aaa2d9126c424746770a474a5f"
-  integrity sha512-wL/7VzGRpw9rzi+Xo5siqaD218k9BazYZ/RjWfg+yDN9MMgol5iLjAfPrLxU0pYHI5z2ZJsU8+ksRun9o03jHg==
+  version "2.7.5"
+  resolved "https://registry.yarnpkg.com/snowpack/-/snowpack-2.7.5.tgz#57d97be9986c99e9ae518e6d0c8a79121e180b1e"
+  integrity sha512-Z/SDKVkAjoXjqBFuTQIb8uWuxt7Tg8auoFMcnsqBCwlmMkryMDLYwm7KTgY3MukWhUQhiIwR1/8Sxdf6MB+OFw==
   dependencies:
     "@babel/plugin-syntax-import-meta" "^7.10.4"
     "@rollup/plugin-alias" "^3.0.1"
@@ -7752,8 +7737,8 @@ snowpack@^2.7.4:
     "@rollup/plugin-json" "^4.0.0"
     "@rollup/plugin-node-resolve" "^8.0.0"
     "@rollup/plugin-replace" "^2.1.0"
-    "@snowpack/plugin-build-script" "^2.0.1"
-    "@snowpack/plugin-run-script" "^2.0.1"
+    "@snowpack/plugin-build-script" "^2.0.2"
+    "@snowpack/plugin-run-script" "^2.0.2"
     cacache "^15.0.0"
     cachedir "^2.3.0"
     chokidar "^3.4.0"
