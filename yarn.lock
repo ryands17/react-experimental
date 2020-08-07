@@ -1617,7 +1617,7 @@
   dependencies:
     "@rollup/pluginutils" "^3.0.8"
 
-"@rollup/plugin-node-resolve@^8.0.0":
+"@rollup/plugin-node-resolve@^8.4.0":
   version "8.4.0"
   resolved "https://registry.yarnpkg.com/@rollup/plugin-node-resolve/-/plugin-node-resolve-8.4.0.tgz#261d79a680e9dc3d86761c14462f24126ba83575"
   integrity sha512-LFqKdRLn0ShtQyf6SBYO69bGE1upV6wUhBX0vFOUnLAyzx5cwp8svA0eHUnu8+YU57XOkrMtfG63QOpQx25pHQ==
@@ -1682,10 +1682,10 @@
   dependencies:
     "@sinonjs/commons" "^1.7.0"
 
-"@snowpack/app-scripts-react@^1.8.1":
-  version "1.8.2"
-  resolved "https://registry.yarnpkg.com/@snowpack/app-scripts-react/-/app-scripts-react-1.8.2.tgz#16effb5fc1a02315d7ad9cf632b0d6c7a09f1ab2"
-  integrity sha512-34b+n5czidEPv4nfE5hnBwowY2yzt/irqhU45EAKl0Fj/WAQh0qRk3QJJL2T959ftt86xdgXpiJNH5naat7pRA==
+"@snowpack/app-scripts-react@^1.8.3":
+  version "1.8.3"
+  resolved "https://registry.yarnpkg.com/@snowpack/app-scripts-react/-/app-scripts-react-1.8.3.tgz#7e156fa286284e937ba134c753629c998f9a6a75"
+  integrity sha512-jcBSHeARahcQ3jJwn0TtiHS8BZFotVk1GNDNFPCzlQ1LvOS36+kciM8ORXZ0uJVWZBXD41roawbObmYtR+Km9A==
   dependencies:
     "@babel/core" "^7.10.5"
     "@babel/plugin-syntax-import-meta" "^7.10.4"
@@ -1704,10 +1704,10 @@
   dependencies:
     "@babel/core" "^7.10.5"
 
-"@snowpack/plugin-build-script@^2.0.2":
-  version "2.0.2"
-  resolved "https://registry.yarnpkg.com/@snowpack/plugin-build-script/-/plugin-build-script-2.0.2.tgz#a594169ce984c223ff33d93fd573641195bd49fd"
-  integrity sha512-f9t3HAl2PPEphOqVgaKzPbLKF4OueamrG5yHYLpmB87TAgIfuPx06fjVnHzsvfDNR3eVdHQFz6OIS0BsYfz3eA==
+"@snowpack/plugin-build-script@^2.0.3":
+  version "2.0.3"
+  resolved "https://registry.yarnpkg.com/@snowpack/plugin-build-script/-/plugin-build-script-2.0.3.tgz#ead829d2f6644fb932b747f52f8fd54260be197b"
+  integrity sha512-F+AUWdNzuYDKxn/UOADFTkszzha5KQg3KOVoueLNiTbJZMxWTeneA43cgmGUVKAYPQcUbX0Y7KuohA06+jMiqg==
   dependencies:
     execa "^4.0.3"
     npm-run-path "^4.0.1"
@@ -1720,10 +1720,10 @@
     dotenv "^8.2.0"
     dotenv-expand "^5.1.0"
 
-"@snowpack/plugin-run-script@^2.0.2":
-  version "2.0.2"
-  resolved "https://registry.yarnpkg.com/@snowpack/plugin-run-script/-/plugin-run-script-2.0.2.tgz#b9aba31b53b9a8514818a1b7c599fa80e4505a06"
-  integrity sha512-ecA14CE8SW34Wm4nwolAfY9CB1RwRogw4zlIboOapoOuYjNBfChz+FmUFraa/I+6AC6OA212R5YC0WZcOcB1nw==
+"@snowpack/plugin-run-script@^2.0.3":
+  version "2.0.3"
+  resolved "https://registry.yarnpkg.com/@snowpack/plugin-run-script/-/plugin-run-script-2.0.3.tgz#922faee745dc59bde3d3a846e5336b6e0dc01341"
+  integrity sha512-fB7mZqFvBt+aP9n96eOHTCh2PS5lCXlSbomio03iQ4tdCTbTtrUIX3BMz//bO66Y/4q0y3hakCcr0pXgys71WA==
   dependencies:
     execa "^4.0.3"
     npm-run-path "^4.0.1"
@@ -1761,10 +1761,10 @@
     lodash "^4.17.15"
     redent "^3.0.0"
 
-"@testing-library/react@^10.4.7":
-  version "10.4.7"
-  resolved "https://registry.yarnpkg.com/@testing-library/react/-/react-10.4.7.tgz#fc14847fb70a5e93576b8f7f0d1490ead02a9061"
-  integrity sha512-hUYbum3X2f1ZKusKfPaooKNYqE/GtPiQ+D2HJaJ4pkxeNJQFVUEvAvEh9+3QuLdBeTWkDMNY5NSijc5+pGdM4Q==
+"@testing-library/react@^10.4.8":
+  version "10.4.8"
+  resolved "https://registry.yarnpkg.com/@testing-library/react/-/react-10.4.8.tgz#5eb730291b8fd81cdb2d8877770d060b044ae4a4"
+  integrity sha512-clgpFR6QHiRRcdhFfAKDhH8UXpNASyfkkANhtCsCVBnai+O+mK1rGtMES+Apc7ql5Wyxu7j8dcLiC4pV5VblHA==
   dependencies:
     "@babel/runtime" "^7.10.3"
     "@testing-library/dom" "^7.17.1"
@@ -3204,10 +3204,10 @@ csstype@^3.0.2:
   resolved "https://registry.yarnpkg.com/csstype/-/csstype-3.0.2.tgz#ee5ff8f208c8cd613b389f7b222c9801ca62b3f7"
   integrity sha512-ofovWglpqoqbfLNOTBNZLSbMuGrblAf1efvvArGKOZMBrIoJeu5UsAipQolkijtyQx5MtAzT/J9IHj/CEY1mJw==
 
-cypress@^4.7.0:
-  version "4.12.0"
-  resolved "https://registry.yarnpkg.com/cypress/-/cypress-4.12.0.tgz#b9d9b16d45be28543edc0e4dc89987bed5bb090b"
-  integrity sha512-ZDngKMwoQ2UYmeSUJikLMZG6t2N7lTHHlzBzh5W0MbPfXSMv36YUgL2ZVD+t4ZLA63WWkvhwxIkDG+WJknBgHw==
+cypress@^4.12.1:
+  version "4.12.1"
+  resolved "https://registry.yarnpkg.com/cypress/-/cypress-4.12.1.tgz#0ead1b9f4c0917d69d8b57f996b6e01fe693b6ec"
+  integrity sha512-9SGIPEmqU8vuRA6xst2CMTYd9sCFCxKSzrHt0wr+w2iAQMCIIsXsQ5Gplns1sT6LDbZcmLv6uehabAOl3fhc9Q==
   dependencies:
     "@cypress/listr-verbose-renderer" "^0.4.1"
     "@cypress/request" "^2.88.5"
@@ -7439,10 +7439,10 @@ rimraf@^3.0.0, rimraf@^3.0.2:
   dependencies:
     glob "^7.1.3"
 
-rollup@^2.13.1:
-  version "2.22.1"
-  resolved "https://registry.yarnpkg.com/rollup/-/rollup-2.22.1.tgz#8700522aa5feb12c6bd51810df8a276699d136b1"
-  integrity sha512-K9AUQUCJkVqC+A7uUDacfhmpEeAjc2uOmSpvGI5xaYsm8pXgy4ZWEM8wHPfKj11xvCwFZppkRDo8a0RESJXCnw==
+rollup@^2.23.0:
+  version "2.23.0"
+  resolved "https://registry.yarnpkg.com/rollup/-/rollup-2.23.0.tgz#b7ab1fee0c0e60132fd0553c4df1e9cdacfada9d"
+  integrity sha512-vLNmZFUGVwrnqNAJ/BvuLk1MtWzu4IuoqsH9UWK5AIdO3rt8/CSiJNvPvCIvfzrbNsqKbNzPAG1V2O4eTe2XZg==
   optionalDependencies:
     fsevents "~2.1.2"
 
@@ -7658,19 +7658,19 @@ snapdragon@^0.8.1:
     source-map-resolve "^0.5.0"
     use "^3.1.0"
 
-snowpack@^2.7.4:
-  version "2.7.5"
-  resolved "https://registry.yarnpkg.com/snowpack/-/snowpack-2.7.5.tgz#57d97be9986c99e9ae518e6d0c8a79121e180b1e"
-  integrity sha512-Z/SDKVkAjoXjqBFuTQIb8uWuxt7Tg8auoFMcnsqBCwlmMkryMDLYwm7KTgY3MukWhUQhiIwR1/8Sxdf6MB+OFw==
+snowpack@^2.7.6:
+  version "2.7.6"
+  resolved "https://registry.yarnpkg.com/snowpack/-/snowpack-2.7.6.tgz#7ad9e9a9f2ef1bcbc8c72d83fe3aa1e3457d629b"
+  integrity sha512-39GwSXsOVYuRK+1MhUiL+/jMzT2VjrH4eAMGVsxXOfN3T2AunbrdyXC5HbSRLzNBamyX6EYZ81NHUOfFy65g8w==
   dependencies:
     "@babel/plugin-syntax-import-meta" "^7.10.4"
     "@rollup/plugin-alias" "^3.0.1"
     "@rollup/plugin-commonjs" "^14.0.0"
     "@rollup/plugin-json" "^4.0.0"
-    "@rollup/plugin-node-resolve" "^8.0.0"
+    "@rollup/plugin-node-resolve" "^8.4.0"
     "@rollup/plugin-replace" "^2.1.0"
-    "@snowpack/plugin-build-script" "^2.0.2"
-    "@snowpack/plugin-run-script" "^2.0.2"
+    "@snowpack/plugin-build-script" "^2.0.3"
+    "@snowpack/plugin-run-script" "^2.0.3"
     cacache "^15.0.0"
     cachedir "^2.3.0"
     chokidar "^3.4.0"
@@ -7699,7 +7699,7 @@ snowpack@^2.7.4:
     p-queue "^6.2.1"
     resolve-from "^5.0.0"
     rimraf "^3.0.0"
-    rollup "^2.13.1"
+    rollup "^2.23.0"
     signal-exit "^3.0.3"
     strip-comments "^2.0.1"
     tar "^6.0.1"

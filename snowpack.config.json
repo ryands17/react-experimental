@@ -1,11 +1,19 @@
 {
   "extends": "@snowpack/app-scripts-react",
-  "scripts": {
-    "build:css": "postcss",
-    "run:lint": "eslint 'src/**/*.{ts,tsx}'",
-    "run:lint::watch": "watch \"eslint 'src/**/*.{ts,tsx}'\" src"
-  },
-  "plugins": [],
+  "scripts": {},
+  "plugins": [
+    [
+      "@snowpack/plugin-build-script",
+      { "cmd": "postcss", "input": [".css"], "output": [".css"] }
+    ],
+    [
+      "@snowpack/plugin-run-script",
+      {
+        "cmd": "eslint 'src/**/*.{ts,tsx}'",
+        "watch": "watch \"eslint 'src/**/*.{ts,tsx}'\" src"
+      }
+    ]
+  ],
   "alias": {
     "~": "./src"
   }
