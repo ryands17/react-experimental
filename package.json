@@ -27,7 +27,7 @@
     "eslint-plugin-import": "2.x",
     "eslint-plugin-jsx-a11y": "6.x",
     "eslint-plugin-react": "7.20.6",
-    "eslint-plugin-react-hooks": "4.0.8",
+    "eslint-plugin-react-hooks": "4.1.0",
     "jest": "^26.2.2",
     "postcss": "^7.0.32",
     "postcss-cli": "^7.1.1",
