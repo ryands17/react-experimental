@@ -44,7 +44,7 @@
     "arrowParens": "avoid"
   },
   "dependencies": {
-    "react": "^0.0.0-experimental-4c8c98ab9",
+    "react": "^0.14.0",
     "react-dom": "^0.0.0-experimental-4c8c98ab9",
     "react-router": "^6.0.0-alpha.5",
     "react-router-dom": "^6.0.0-alpha.5",
