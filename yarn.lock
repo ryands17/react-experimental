@@ -7645,9 +7645,9 @@ snapdragon@^0.8.1:
     use "^3.1.0"
 
 snowpack@^2.9.0:
-  version "2.10.0"
-  resolved "https://registry.yarnpkg.com/snowpack/-/snowpack-2.10.0.tgz#143b78e4a25f5bf604042d59628acb213acb6807"
-  integrity sha512-kZCGWV8cH+CaRcHe+vZEcbbfVqTlKqshHDKUIj7yM5al61WnoDXrFfK6RSDOW3BzxYTiuIyuyULCkWicdIzTaw==
+  version "2.10.2"
+  resolved "https://registry.yarnpkg.com/snowpack/-/snowpack-2.10.2.tgz#6f8ff12e6cd188c1cc48d95a6751ed842613479b"
+  integrity sha512-tuWgujXk7lQMlt5Bq6HQC6CawwqVQ/HiPzWPOEtZjSw+J7XCG2mp9+0yy8Imc7H4wkkas6EqaeOYQMPm9zaXlg==
   dependencies:
     "@babel/plugin-syntax-import-meta" "^7.10.4"
     "@rollup/plugin-alias" "^3.0.1"
