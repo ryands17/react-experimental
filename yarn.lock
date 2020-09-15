@@ -1724,9 +1724,9 @@
     react-refresh "^0.8.3"
 
 "@snowpack/plugin-run-script@^2.0.3", "@snowpack/plugin-run-script@^2.1.1":
-  version "2.1.1"
-  resolved "https://registry.yarnpkg.com/@snowpack/plugin-run-script/-/plugin-run-script-2.1.1.tgz#f0f71cab5e0a482dfceb3306ae3e7d9cab859746"
-  integrity sha512-ZLOcu6n+eLDNxTxKlKK/+smn9PWr/epUKGPw8tBHr3qdKQ64WNpCVr0jnafanzWpzQWD8k92J8POfskKMuEI5Q==
+  version "2.1.2"
+  resolved "https://registry.yarnpkg.com/@snowpack/plugin-run-script/-/plugin-run-script-2.1.2.tgz#51a620f99cc8ba4a23d3fc5c748f3c16aada7ad4"
+  integrity sha512-120uF0GKpEY/jHRuOZnxH8siLPXDSKB44Fy9d+zMWybsVvkIvV7pqcT9T9ojnth6QRB+f39tPaiqt+Ej/ByBjg==
   dependencies:
     execa "^4.0.3"
     npm-run-path "^4.0.1"
