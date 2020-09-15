@@ -8053,9 +8053,9 @@ table@^5.2.3:
     string-width "^3.0.0"
 
 tailwindcss-classnames@^1.3.6:
-  version "1.7.0"
-  resolved "https://registry.yarnpkg.com/tailwindcss-classnames/-/tailwindcss-classnames-1.7.0.tgz#7d31df94c65de7787d288da92944014d14703663"
-  integrity sha512-mylt93eoSVNJXfIVqlUbLSghWWRoFMjl/t8yu7sQsJ3YQ26YEhlDJCw0b+t2+HxrXd3ikfDW2Tz7gStFpFCEAg==
+  version "1.8.2"
+  resolved "https://registry.yarnpkg.com/tailwindcss-classnames/-/tailwindcss-classnames-1.8.2.tgz#3be228828d45a20318b0a4bcbc355665601b3d6d"
+  integrity sha512-9qcPXOK6svBoTxTDyn5mA+OAqK3wEHp9pIWXjpUR2gIjRt1+JtqS9LPrYK8VwZzHB7SLa+N3RUiqvMC0UkAs5Q==
   dependencies:
     classnames "^2.2.6"
     colors "^1.4.0"
