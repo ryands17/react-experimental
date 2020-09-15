@@ -1701,9 +1701,9 @@
     workerpool "^6.0.0"
 
 "@snowpack/plugin-build-script@^2.0.3", "@snowpack/plugin-build-script@^2.0.6":
-  version "2.0.6"
-  resolved "https://registry.yarnpkg.com/@snowpack/plugin-build-script/-/plugin-build-script-2.0.6.tgz#95c85cc6c4c53763a91a2d170633918ecd0d3cc8"
-  integrity sha512-qtvXQq54MaBYJrCTa+DaK/KzUXYBkRukaGzIdhpqW/xzOknCjpufiQIy0VUzxwRQk0OlLC6/h3sV1hSMsoTVJw==
+  version "2.0.7"
+  resolved "https://registry.yarnpkg.com/@snowpack/plugin-build-script/-/plugin-build-script-2.0.7.tgz#1d133030ceac51efce471b66622d1b7320d5ab9f"
+  integrity sha512-f1fZN0Blsfk25oMBf62wvhHm6v7DUG0W85+JFKzYI6SHOIHrYL37o9xaJX7RJpn2kEKCRymWsQo4PclQdnL77w==
   dependencies:
     execa "^4.0.3"
     npm-run-path "^4.0.1"
