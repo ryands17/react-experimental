@@ -48,6 +48,6 @@
     "react-router": "^6.0.0-alpha.5",
     "react-router-dom": "^6.0.0-alpha.5",
     "tailwindcss": "1.9.6",
-    "tailwindcss-classnames": "1.8.3"
+    "tailwindcss-classnames": "1.9.0"
   }
 }

@@ -8109,10 +8109,10 @@ table@^5.2.3:
     slice-ansi "^2.1.0"
     string-width "^3.0.0"
 
-tailwindcss-classnames@1.8.3:
-  version "1.8.3"
-  resolved "https://registry.yarnpkg.com/tailwindcss-classnames/-/tailwindcss-classnames-1.8.3.tgz#a32abec8a435ed4c7211d0025796fa0613e7cbbb"
-  integrity sha512-h+nZcoqwmRb1uqO6782IzBALtFZ+YleMUhfrxqd4tiHQxzp7tRAZyvBpnigbK06i+/UbP9lijFihmwy+V4IESQ==
+tailwindcss-classnames@1.9.0:
+  version "1.9.0"
+  resolved "https://registry.yarnpkg.com/tailwindcss-classnames/-/tailwindcss-classnames-1.9.0.tgz#68f142649a0f1dbff8c121a2c5d21c886637ea8d"
+  integrity sha512-TiEP4a4X6yyGMIUkJi2YxXgPZsWz4RXwyo3EVaTHTYqoRj5PqbSlUS4B57g3sikmR6vhovz0t/R23J3IulxdXw==
   dependencies:
     classnames "^2.2.6"
     colors "^1.4.0"
