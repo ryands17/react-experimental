@@ -2375,13 +2375,13 @@ atob@^2.1.2:
   resolved "https://registry.yarnpkg.com/atob/-/atob-2.1.2.tgz#6d9517eb9e030d2436666651e86bd9f6f13533c9"
   integrity sha512-Wm6ukoaOGJi/73p/cl2GvLjTI5JM1k/O14isD73YML8StrH/7/lRFgmg8nICZgD3bZZvjwCGxtMOD3wWNAu8cg==
 
-autoprefixer@10.0.1:
-  version "10.0.1"
-  resolved "https://registry.yarnpkg.com/autoprefixer/-/autoprefixer-10.0.1.tgz#e2d9000f84ebd98d77b7bc16f8adb2ff1f7bb946"
-  integrity sha512-aQo2BDIsoOdemXUAOBpFv4ZQa2DrOtEufarYhtFsK1088Ca0TUwu/aQWf0M3mrILXZ3mTIVn1lR3hPW8acacsw==
+autoprefixer@10.0.2:
+  version "10.0.2"
+  resolved "https://registry.yarnpkg.com/autoprefixer/-/autoprefixer-10.0.2.tgz#a79f9a02bfb95c621998776ac0d85f8f855b367e"
+  integrity sha512-okBmu9OMdt6DNEcZmnl0IYVv8Xl/xYWRSnc2OJ9UJEOt1u30opG1B8aLsViqKryBaYv1SKB4f85fOGZs5zYxHQ==
   dependencies:
-    browserslist "^4.14.5"
-    caniuse-lite "^1.0.30001137"
+    browserslist "^4.14.7"
+    caniuse-lite "^1.0.30001157"
     colorette "^1.2.1"
     normalize-range "^0.1.2"
     num2fraction "^1.2.2"
@@ -2620,15 +2620,16 @@ browserslist@^4.12.0, browserslist@^4.6.4, browserslist@^4.8.5, browserslist@^4.
     node-releases "^1.1.53"
     pkg-up "^2.0.0"
 
-browserslist@^4.14.5:
-  version "4.14.5"
-  resolved "https://registry.yarnpkg.com/browserslist/-/browserslist-4.14.5.tgz#1c751461a102ddc60e40993639b709be7f2c4015"
-  integrity sha512-Z+vsCZIvCBvqLoYkBFTwEYH3v5MCQbsAjp50ERycpOjnPmolg1Gjy4+KaWWpm8QOJt9GHkhdqAl14NpCX73CWA==
+browserslist@^4.14.7:
+  version "4.14.7"
+  resolved "https://registry.yarnpkg.com/browserslist/-/browserslist-4.14.7.tgz#c071c1b3622c1c2e790799a37bb09473a4351cb6"
+  integrity sha512-BSVRLCeG3Xt/j/1cCGj1019Wbty0H+Yvu2AOuZSuoaUWn3RatbL33Cxk+Q4jRMRAbOm0p7SLravLjpnT6s0vzQ==
   dependencies:
-    caniuse-lite "^1.0.30001135"
-    electron-to-chromium "^1.3.571"
-    escalade "^3.1.0"
-    node-releases "^1.1.61"
+    caniuse-lite "^1.0.30001157"
+    colorette "^1.2.1"
+    electron-to-chromium "^1.3.591"
+    escalade "^3.1.1"
+    node-releases "^1.1.66"
 
 bser@2.1.1:
   version "2.1.1"
@@ -2735,10 +2736,10 @@ caniuse-lite@^1.0.30001109:
   resolved "https://registry.yarnpkg.com/caniuse-lite/-/caniuse-lite-1.0.30001109.tgz#a9f3f26a0c3753b063d7acbb48dfb9c0e46f2b19"
   integrity sha512-4JIXRodHzdS3HdK8nSgIqXYLExOvG+D2/EenSvcub2Kp3QEADjo2v2oUn5g0n0D+UNwG9BtwKOyGcSq2qvQXvQ==
 
-caniuse-lite@^1.0.30001135, caniuse-lite@^1.0.30001137:
-  version "1.0.30001137"
-  resolved "https://registry.yarnpkg.com/caniuse-lite/-/caniuse-lite-1.0.30001137.tgz#6f0127b1d3788742561a25af3607a17fc778b803"
-  integrity sha512-54xKQZTqZrKVHmVz0+UvdZR6kQc7pJDgfhsMYDG19ID1BWoNnDMFm5Q3uSBSU401pBvKYMsHAt9qhEDcxmk8aw==
+caniuse-lite@^1.0.30001157:
+  version "1.0.30001157"
+  resolved "https://registry.yarnpkg.com/caniuse-lite/-/caniuse-lite-1.0.30001157.tgz#2d11aaeb239b340bc1aa730eca18a37fdb07a9ab"
+  integrity sha512-gOerH9Wz2IRZ2ZPdMfBvyOi3cjaz4O4dgNwPGzx8EhqAs4+2IL/O+fJsbt+znSigujoZG8bVcIAUM/I/E5K3MA==
 
 capture-exit@^2.0.0:
   version "2.0.0"
@@ -3494,10 +3495,10 @@ electron-to-chromium@^1.3.413:
   resolved "https://registry.yarnpkg.com/electron-to-chromium/-/electron-to-chromium-1.3.458.tgz#4ef179f9a0f1d8a658180c09b21bf73edddfc5eb"
   integrity sha512-OjRkb0igW0oKE2QbzS7vBYrm7xjW/KRTtIj0OGGx57jr/YhBiKb7oZvdbaojqjfCb/7LbnwsbMbdsYjthdJbAw==
 
-electron-to-chromium@^1.3.571:
-  version "1.3.573"
-  resolved "https://registry.yarnpkg.com/electron-to-chromium/-/electron-to-chromium-1.3.573.tgz#6a21e13ee894eb441677333d5fe9fa3a449689a1"
-  integrity sha512-oypaNmexr8w0m2GX67fGLQ0Xgsd7uXz7GcwaHZ9eW3ZdQ8uA2+V/wXmLdMTk3gcacbqQGAN7CXWG3fOkfKYftw==
+electron-to-chromium@^1.3.591:
+  version "1.3.595"
+  resolved "https://registry.yarnpkg.com/electron-to-chromium/-/electron-to-chromium-1.3.595.tgz#e8a9e7c6919963419f892ea981d7b3438ccb834d"
+  integrity sha512-JpaBIhdBkF9FLG7x06ONfe0f5bxPrxRcq0X+Sc8vsCt+OPWIzxOD+qM71NEHLGbDfN9Q6hbtHRv4/dnvcOxo6g==
 
 elegant-spinner@^1.0.1:
   version "1.0.1"
@@ -3599,10 +3600,15 @@ esbuild@^0.7.0:
   resolved "https://registry.yarnpkg.com/esbuild/-/esbuild-0.7.15.tgz#b50fe68fa12f41f42afab1c49a2b4524de5b6431"
   integrity sha512-tgvd7miwyQVAzlDIcrs9vwoVEL33NmDRggTwKSkcdTj25BOfSWoIUuFXG4vvHRQTkJDk2uHJSi7bhBdPmMzodA==
 
-escalade@^3.0.2, escalade@^3.1.0:
+escalade@^3.0.2:
   version "3.1.0"
   resolved "https://registry.yarnpkg.com/escalade/-/escalade-3.1.0.tgz#e8e2d7c7a8b76f6ee64c2181d6b8151441602d4e"
   integrity sha512-mAk+hPSO8fLDkhV7V0dXazH5pDc6MrjBTPyD3VeKzxnVFjH1MIxbCdqGZB9O8+EwWakZs3ZCbDS4IpRt79V1ig==
+
+escalade@^3.1.1:
+  version "3.1.1"
+  resolved "https://registry.yarnpkg.com/escalade/-/escalade-3.1.1.tgz#d8cfdc7000965c5a0174b4a82eaa5c0552742e40"
+  integrity sha512-k0er2gUkLf8O0zKJiAhmkTnJlTvINGv7ygDNPbeIsX/TJjGJZHuh9B2UxbsaEkmlEo9MfhrSzmhIlhRlI2GXnw==
 
 escape-string-regexp@^1.0.2, escape-string-regexp@^1.0.5:
   version "1.0.5"
@@ -5978,10 +5984,10 @@ mute-stream@0.0.8:
   resolved "https://registry.yarnpkg.com/mute-stream/-/mute-stream-0.0.8.tgz#1630c42b2251ff81e2a283de96a5497ea92e5e0d"
   integrity sha512-nnbWWOkoWyUsTjKrhgD0dcz22mdkSnpYqbEjIm2nhwhuxlSkpywJmBo8h0ZqJdkp73mb90SssHkN4rsRaBAfAA==
 
-nanoid@^3.1.12:
-  version "3.1.12"
-  resolved "https://registry.yarnpkg.com/nanoid/-/nanoid-3.1.12.tgz#6f7736c62e8d39421601e4a0c77623a97ea69654"
-  integrity sha512-1qstj9z5+x491jfiC4Nelk+f8XBad7LN20PmyWINJEMRSf3wcAjAWysw1qaA8z6NSKe2sjq1hRSDpBH5paCb6A==
+nanoid@^3.1.16:
+  version "3.1.16"
+  resolved "https://registry.yarnpkg.com/nanoid/-/nanoid-3.1.16.tgz#b21f0a7d031196faf75314d7c65d36352beeef64"
+  integrity sha512-+AK8MN0WHji40lj8AEuwLOvLSbWYApQpre/aFJZD71r43wVRLrOYS4FmJOPQYon1TqB462RzrrxlfA74XRES8w==
 
 nanomatch@^1.2.9:
   version "1.2.13"
@@ -6044,10 +6050,10 @@ node-releases@^1.1.53:
   resolved "https://registry.yarnpkg.com/node-releases/-/node-releases-1.1.58.tgz#8ee20eef30fa60e52755fcc0942def5a734fe935"
   integrity sha512-NxBudgVKiRh/2aPWMgPR7bPTX0VPmGx5QBwCtdHitnqFE5/O8DeBXuIMH1nwNnw/aMo6AjOrpsHzfY3UbUJ7yg==
 
-node-releases@^1.1.61:
-  version "1.1.61"
-  resolved "https://registry.yarnpkg.com/node-releases/-/node-releases-1.1.61.tgz#707b0fca9ce4e11783612ba4a2fcba09047af16e"
-  integrity sha512-DD5vebQLg8jLCOzwupn954fbIiZht05DAZs0k2u8NStSe6h9XdsuIQL8hSRKYiU8WUQRznmSDrKGbv3ObOmC7g==
+node-releases@^1.1.66:
+  version "1.1.66"
+  resolved "https://registry.yarnpkg.com/node-releases/-/node-releases-1.1.66.tgz#609bd0dc069381015cd982300bae51ab4f1b1814"
+  integrity sha512-JHEQ1iWPGK+38VLB2H9ef2otU4l8s3yAMt9Xf934r6+ojCYDMHPMqvCc9TnzfeFSP1QEOeU6YZEd3+De0LTCgg==
 
 normalize-package-data@^2.3.2, normalize-package-data@^2.5.0:
   version "2.5.0"
@@ -6506,10 +6512,10 @@ postcss-attribute-case-insensitive@^4.0.1:
     postcss "^7.0.2"
     postcss-selector-parser "^6.0.2"
 
-postcss-cli@8.1.0:
-  version "8.1.0"
-  resolved "https://registry.yarnpkg.com/postcss-cli/-/postcss-cli-8.1.0.tgz#cc93de3c652bf167a213ef689a855ae7fb1c8745"
-  integrity sha512-FYuV5zyYX53X5RywInxjWLqHZ4oCBC3nDwrHYU3Z75mFqUo5IHfbeY593heWSagG90nPnXq3tXCck8+2CUl8EA==
+postcss-cli@8.2.0:
+  version "8.2.0"
+  resolved "https://registry.yarnpkg.com/postcss-cli/-/postcss-cli-8.2.0.tgz#f94ad3792e4daece87f70fb4bda9368bb02bbf60"
+  integrity sha512-N7tgPpB/2yXk/04irc/RiImCkftVw42STaploQBeOT1xvrIkyG+YW+TsHAJ57xWwL+b0AjXnqs5/RL/1XIh2Lw==
   dependencies:
     chalk "^4.0.0"
     chokidar "^3.3.0"
@@ -6521,6 +6527,7 @@ postcss-cli@8.1.0:
     postcss-reporter "^7.0.0"
     pretty-hrtime "^1.0.3"
     read-cache "^1.0.0"
+    slash "^3.0.0"
     yargs "^16.0.0"
 
 postcss-color-functional-notation@^2.0.1:
@@ -6915,14 +6922,14 @@ postcss@7.0.28:
     source-map "^0.6.1"
     supports-color "^6.1.0"
 
-postcss@8.1.1:
-  version "8.1.1"
-  resolved "https://registry.yarnpkg.com/postcss/-/postcss-8.1.1.tgz#c3a287dd10e4f6c84cb3791052b96a5d859c9389"
-  integrity sha512-9DGLSsjooH3kSNjTZUOt2eIj2ZTW0VI2PZ/3My+8TC7KIbH2OKwUlISfDsf63EP4aiRUt3XkEWMWvyJHvJelEg==
+postcss@8.1.7:
+  version "8.1.7"
+  resolved "https://registry.yarnpkg.com/postcss/-/postcss-8.1.7.tgz#ff6a82691bd861f3354fd9b17b2332f88171233f"
+  integrity sha512-llCQW1Pz4MOPwbZLmOddGM9eIJ8Bh7SZ2Oj5sxZva77uVaotYDsYTch1WBTNu7fUY0fpWp0fdt7uW40D4sRiiQ==
   dependencies:
     colorette "^1.2.1"
     line-column "^1.0.2"
-    nanoid "^3.1.12"
+    nanoid "^3.1.16"
     source-map "^0.6.1"
 
 postcss@^6.0.1, postcss@^6.0.9:
