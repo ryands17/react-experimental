@@ -8,9 +8,9 @@
     "lint": "eslint 'src/**/*.{ts,tsx}'"
   },
   "devDependencies": {
-    "@snowpack/app-scripts-react": "1.12.3",
-    "@snowpack/plugin-build-script": "2.0.9",
-    "@snowpack/plugin-run-script": "2.1.5",
+    "@snowpack/app-scripts-react": "1.12.6",
+    "@snowpack/plugin-build-script": "2.0.11",
+    "@snowpack/plugin-run-script": "2.2.0",
     "@testing-library/jest-dom": "5.11.4",
     "@testing-library/react": "11.0.4",
     "@types/react": "16.9.52",
