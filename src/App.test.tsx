@@ -1,11 +1,13 @@
 import * as React from 'react'
-import { render } from '@testing-library/react'
+import { render, screen, waitFor } from '@testing-library/react'
 import App from './App'
 
 describe('<App>', () => {
-  it('renders learn react link', () => {
-    const { getByText } = render(<App />)
-    const linkElement = getByText(/learn react/i)
-    expect(document.body.contains(linkElement))
+  it('renders the "User" component', async () => {
+    render(<App />)
+    await waitFor(() => screen.getByText('Users'))
+
+    expect(screen.getByText('Users')).toBeInTheDocument()
+    expect(screen.getByRole('list')).toBeInTheDocument()
   })
 })

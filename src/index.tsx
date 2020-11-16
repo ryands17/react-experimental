@@ -3,15 +3,19 @@
 
 import React from 'react'
 import ReactDOM from 'react-dom'
+import { ReactQueryCacheProvider } from 'react-query'
 import App from './App'
 import './index.css'
+import { queryCache } from './utils'
 
 const element = document.getElementById('root')
 
 if (element) {
   ReactDOM.unstable_createRoot(element).render(
     <React.StrictMode>
-      <App />
+      <ReactQueryCacheProvider queryCache={queryCache}>
+        <App />
+      </ReactQueryCacheProvider>
     </React.StrictMode>
   )
 }
