@@ -6090,14 +6090,14 @@ react-is@^17.0.1:
   resolved "https://registry.yarnpkg.com/react-is/-/react-is-17.0.1.tgz#5b3531bd76a645a4c9fb6e693ed36419e3301339"
   integrity sha512-NAnt2iGDXohE5LI7uBnLnqvLQMtzhkiAOLXTmv+qnF9Ky7xAPcX8Up/xWIhxvLVGJvuLiNc4xQLtuqDRzb4fSA==
 
-react-query-devtools@^2.6.3:
+react-query-devtools@2.6.3:
   version "2.6.3"
   resolved "https://registry.yarnpkg.com/react-query-devtools/-/react-query-devtools-2.6.3.tgz#f7c982839d4b0001cee4d5ddfa826493c2f6341f"
   integrity sha512-pSvWq5Q8zgIP7QbF0+4BerCHLaLn5HPzce7sIXYqz4XEizcYJHkJtcrAwn6bUkCu5JmAt1Y7fViQtZwOIG2SYA==
   dependencies:
     match-sorter "^4.1.0"
 
-react-query@^2.26.2:
+react-query@2.26.2:
   version "2.26.2"
   resolved "https://registry.yarnpkg.com/react-query/-/react-query-2.26.2.tgz#d6fb2dd0b54934f5d1f5cdd9f8d97808eb012eb7"
   integrity sha512-tJ3oHifWtI3cwklOLx5jIIj1ZpmvuWpPBg5iaOoi3uuIe80l0t3QCDTEF+nXpE12pYxKMj29NQ5OkTsOOMdP4Q==
