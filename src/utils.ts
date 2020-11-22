@@ -5,6 +5,7 @@ export interface User {
   name: string
   username: string
   email: string
+  phone: string
 }
 
 export const queryCache = new QueryCache({
@@ -14,3 +15,8 @@ export const queryCache = new QueryCache({
     },
   },
 })
+
+export const allUsers = async (): Promise<User[]> => {
+  const res = await fetch('https://jsonplaceholder.typicode.com/users')
+  return res.json()
+}

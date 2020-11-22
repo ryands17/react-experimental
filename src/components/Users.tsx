@@ -1,25 +1,24 @@
 import React from 'react'
 import { useQuery } from 'react-query'
 import { classnames } from 'tailwindcss-classnames'
-import type { User } from '../utils'
+import { allUsers, User } from '../utils'
+import { Card } from './Card'
 
 export const Users = () => {
-  const { data: users } = useQuery<User[]>('users')
+  const { data: users } = useQuery<User[]>('users', allUsers)
 
   return (
-    <>
-      <h1 className={classnames('text-4xl')}>Users</h1>
-      <ul>
-        {users?.map(u => (
-          <li key={u.id}>
-            <span className={classnames('font-bold', 'text-blue-600')}>
-              {u.name}
-            </span>{' '}
-            =&gt;{' '}
-            <span className={classnames('text-purple-700')}>{u.email}</span>
-          </li>
-        ))}
-      </ul>
-    </>
+    <div
+      className={classnames(
+        'flex',
+        'items-center',
+        'justify-center',
+        'flex-col'
+      )}
+    >
+      {users?.map(user => (
+        <Card user={user} key={user.id} />
+      ))}
+    </div>
   )
 }
