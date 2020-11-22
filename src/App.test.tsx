@@ -8,6 +8,6 @@ describe('<App>', () => {
     await waitFor(() => screen.getByText('Users'))
 
     expect(screen.getByText('Users')).toBeInTheDocument()
-    expect(screen.getByRole('list')).toBeInTheDocument()
+    expect(screen.getByTestId('user-list')).toBeInTheDocument()
   })
 })

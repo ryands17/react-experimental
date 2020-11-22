@@ -15,6 +15,7 @@ export const Users = () => {
         'justify-center',
         'flex-col'
       )}
+      data-testid="user-list"
     >
       {users?.map(user => (
         <Card user={user} key={user.id} />
