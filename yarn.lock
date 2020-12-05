@@ -1392,15 +1392,7 @@
     "@babel/core" "^7.10.5"
     workerpool "^6.0.0"
 
-"@snowpack/plugin-build-script@2.0.11":
-  version "2.0.11"
-  resolved "https://registry.yarnpkg.com/@snowpack/plugin-build-script/-/plugin-build-script-2.0.11.tgz#50eb2b6127c8863cbbc6a3105042713e16818869"
-  integrity sha512-bLi7W0ry5OAhCEGuBL3PdLchWU+WaXa2aJYSJapt4FsfhUiNwi+ua1qiZ0syaXXfRq/2jx9eEkx4G7TGB8Kvsg==
-  dependencies:
-    execa "^4.0.3"
-    npm-run-path "^4.0.1"
-
-"@snowpack/plugin-build-script@^2.0.12":
+"@snowpack/plugin-build-script@2.0.12", "@snowpack/plugin-build-script@^2.0.12":
   version "2.0.12"
   resolved "https://registry.yarnpkg.com/@snowpack/plugin-build-script/-/plugin-build-script-2.0.12.tgz#bbb59fedbaae40eed1e3c20f6050659911577897"
   integrity sha512-v4Kcmu8x0C5iqPbI8w1vMyT6ZVVeh/Z4LTFeTJx+nLm5VKdQJsLyLarI2YhOuQEGB/RZeR4PxvAJBZn1xcH6Bw==
@@ -1408,7 +1400,15 @@
     execa "^4.0.3"
     npm-run-path "^4.0.1"
 
-"@snowpack/plugin-dotenv@2.0.4", "@snowpack/plugin-dotenv@^2.0.4":
+"@snowpack/plugin-dotenv@2.0.5":
+  version "2.0.5"
+  resolved "https://registry.yarnpkg.com/@snowpack/plugin-dotenv/-/plugin-dotenv-2.0.5.tgz#e8bcc5cb59c951f7d560e36397960dd2252a56ee"
+  integrity sha512-y54lwYRDpTfDTU3uopHLND0DKIjjyWiYxhvOPfZvC4OpOd7UIRwMdSOd5XLZJPEBJ4BD38lDLiXh+ODfNDqhnQ==
+  dependencies:
+    dotenv "^8.2.0"
+    dotenv-expand "^5.1.0"
+
+"@snowpack/plugin-dotenv@^2.0.4":
   version "2.0.4"
   resolved "https://registry.yarnpkg.com/@snowpack/plugin-dotenv/-/plugin-dotenv-2.0.4.tgz#bd9b9db3adb589a0163a937a4a0dd41ff86f1051"
   integrity sha512-Ho4IpDLiA0m6YgKoBAuHV/s8bk+pIaE7sYH01nvfm9QOkZK68l69Dv61DG4VXMatcnw1zEPPR3RoLKpyDofKYQ==
@@ -1416,7 +1416,16 @@
     dotenv "^8.2.0"
     dotenv-expand "^5.1.0"
 
-"@snowpack/plugin-react-refresh@2.3.7", "@snowpack/plugin-react-refresh@^2.3.5":
+"@snowpack/plugin-react-refresh@2.3.8":
+  version "2.3.8"
+  resolved "https://registry.yarnpkg.com/@snowpack/plugin-react-refresh/-/plugin-react-refresh-2.3.8.tgz#46b311d13cdc5a3f5d265deac9351ce3ae528ffc"
+  integrity sha512-mVGsUEpOozo7B9Tb2mbYHiMmnkNMSiLIUumZyG8wwNNIVh0Rve7LVoKB3S5G3DiK/SiNQpFi/aRPRjP8zAQtWg==
+  dependencies:
+    "@babel/core" "^7.0.0"
+    "@babel/plugin-syntax-class-properties" "^7.10.0"
+    react-refresh "^0.9.0"
+
+"@snowpack/plugin-react-refresh@^2.3.5":
   version "2.3.7"
   resolved "https://registry.yarnpkg.com/@snowpack/plugin-react-refresh/-/plugin-react-refresh-2.3.7.tgz#9ba7da6d2db160d28f9b3a14a91e588b8b445d0f"
   integrity sha512-LltkmwZKRz4fHj1rfaaT0MC19F3k4FWs/U3eim4xbxqbsK4K/PHCMJU1RmiLxM7UcFbqi7LreQGZSCSXPoaNgQ==
@@ -1425,15 +1434,7 @@
     "@babel/plugin-syntax-class-properties" "^7.10.0"
     react-refresh "^0.9.0"
 
-"@snowpack/plugin-run-script@2.2.0":
-  version "2.2.0"
-  resolved "https://registry.yarnpkg.com/@snowpack/plugin-run-script/-/plugin-run-script-2.2.0.tgz#26b434af5f23dbe3bc189dcacdca5834113b79bc"
-  integrity sha512-wv+ttz7wXD/R+IoIuZqdwy4foP3yq986dPVMGTl2N6ipWo5PAHAQ3n6A83efT/K4zQ1h+RibF3k4yr92qu3jNg==
-  dependencies:
-    execa "^4.0.3"
-    npm-run-path "^4.0.1"
-
-"@snowpack/plugin-run-script@^2.2.1":
+"@snowpack/plugin-run-script@2.2.1", "@snowpack/plugin-run-script@^2.2.1":
   version "2.2.1"
   resolved "https://registry.yarnpkg.com/@snowpack/plugin-run-script/-/plugin-run-script-2.2.1.tgz#8a564f84c65c1136b9b898ef5a89552cf473a638"
   integrity sha512-TuYOtcTrJJnm7oMtAQCZN8/GEXI6Tumtk3MEKNhka/id9LrHdUvaYZ9+yxj/n4hep9/kJ0Y7SlweL32L5Zy0Ow==
@@ -1441,7 +1442,15 @@
     execa "^4.0.3"
     npm-run-path "^4.0.1"
 
-"@snowpack/plugin-typescript@1.1.0", "@snowpack/plugin-typescript@^1.1.0":
+"@snowpack/plugin-typescript@1.1.1":
+  version "1.1.1"
+  resolved "https://registry.yarnpkg.com/@snowpack/plugin-typescript/-/plugin-typescript-1.1.1.tgz#50b982faa962e33fb07a512ed4cbc16bef67df77"
+  integrity sha512-qKEPSTI1Q5r8AAklF6Hpt4xKchkIy1EBWbdTi4v3uA2t/eqlpiZXhJyXTEIfOiPE01nQFIUIcgBeufuNMHVXNw==
+  dependencies:
+    execa "^4.0.3"
+    npm-run-path "^4.0.1"
+
+"@snowpack/plugin-typescript@^1.1.0":
   version "1.1.0"
   resolved "https://registry.yarnpkg.com/@snowpack/plugin-typescript/-/plugin-typescript-1.1.0.tgz#902d3f5500e7295835cefa31c0a26cafd2d819d0"
   integrity sha512-6jAFFks42lW1Gy07qVF6A0RKOCQc+ICa029GUrbgLmXhs0UzDmTG+jJ0qyC41J9MnRR/utLrXvgWWVrmIrPifw==
