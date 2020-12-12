@@ -20,7 +20,7 @@
     "@snowpack/app-scripts-react": "1.12.6",
     "@snowpack/plugin-build-script": "2.0.12",
     "@snowpack/plugin-dotenv": "2.0.5",
-    "@snowpack/plugin-react-refresh": "2.3.8",
+    "@snowpack/plugin-react-refresh": "2.3.9",
     "@snowpack/plugin-run-script": "2.2.1",
     "@snowpack/plugin-typescript": "1.1.1",
     "@testing-library/jest-dom": "5.11.6",
