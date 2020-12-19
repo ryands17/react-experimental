@@ -14,7 +14,7 @@
       "groupName": "snowpack"
     },
     {
-      "packagePatterns": ["^@testing-library", "jest"],
+      "packagePatterns": ["^@testing-library", "jest", "msw"],
       "groupName": "testing"
     },
     {

@@ -11,6 +11,7 @@ export const Card = (props: CardProps) => {
   return (
     <div
       className={classnames('bg-gray-200', 'rounded-lg', 'p-6', 'w-1/4', 'm-4')}
+      data-testid="user-card"
     >
       {/* <img className="h-16 w-16 rounded-full mx-auto" src="avatar.jpg" /> */}
       <div className={classnames('text-center')}>
