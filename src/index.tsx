@@ -3,19 +3,21 @@
 
 import React from 'react'
 import ReactDOM from 'react-dom'
-import { ReactQueryCacheProvider } from 'react-query'
+import { QueryClientProvider } from 'react-query'
+import { ReactQueryDevtools } from 'react-query/devtools'
 import App from './App'
 import './index.css'
-import { queryCache } from './utils'
+import { queryClient } from './utils'
 
 const element = document.getElementById('root')
 
 if (element) {
   ReactDOM.unstable_createRoot(element).render(
     <React.StrictMode>
-      <ReactQueryCacheProvider queryCache={queryCache}>
+      <QueryClientProvider client={queryClient}>
+        <ReactQueryDevtools />
         <App />
-      </ReactQueryCacheProvider>
+      </QueryClientProvider>
     </React.StrictMode>
   )
 }

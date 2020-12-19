@@ -1,4 +1,4 @@
-import { QueryCache } from 'react-query'
+import { QueryClient } from 'react-query'
 
 export interface User {
   id: number
@@ -8,8 +8,8 @@ export interface User {
   phone: string
 }
 
-export const queryCache = new QueryCache({
-  defaultConfig: {
+export const queryClient = new QueryClient({
+  defaultOptions: {
     queries: {
       suspense: true,
     },

@@ -1,9 +1,9 @@
 import React, { Suspense } from 'react'
-import { allUsers, queryCache } from './utils'
+import { allUsers, queryClient } from './utils'
 import { Users } from './components/Users'
 import { classnames } from 'tailwindcss-classnames'
 
-queryCache.prefetchQuery('users', allUsers)
+queryClient.prefetchQuery('users', allUsers)
 
 interface AppProps {}
 
