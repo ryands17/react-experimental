@@ -1,13 +1,21 @@
 import * as React from 'react'
+import { QueryClientProvider, QueryClient } from 'react-query'
 import { render, screen, waitFor } from '@testing-library/react'
 import App from './App'
 
-describe('<App>', () => {
-  it('renders the "User" component', async () => {
-    render(<App />)
-    await waitFor(() => screen.getByText('Users'))
+const queryClient = new QueryClient()
+const Wrapper: React.FC = ({ children }) => (
+  <QueryClientProvider client={queryClient}>{children}</QueryClientProvider>
+)
 
-    expect(screen.getByText('Users')).toBeInTheDocument()
-    expect(screen.getByTestId('user-list')).toBeInTheDocument()
-  })
+it('renders the "User" component', async () => {
+  render(
+    <Wrapper>
+      <App />
+    </Wrapper>
+  )
+  await waitFor(() => screen.getByText('Users'))
+
+  expect(screen.getByText('Users')).toBeInTheDocument()
+  expect(screen.getByTestId('user-list')).toBeInTheDocument()
 })
