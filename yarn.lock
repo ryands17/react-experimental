@@ -6494,10 +6494,10 @@ react-is@^17.0.1:
   resolved "https://registry.yarnpkg.com/react-is/-/react-is-17.0.1.tgz#5b3531bd76a645a4c9fb6e693ed36419e3301339"
   integrity sha512-NAnt2iGDXohE5LI7uBnLnqvLQMtzhkiAOLXTmv+qnF9Ky7xAPcX8Up/xWIhxvLVGJvuLiNc4xQLtuqDRzb4fSA==
 
-react-query@3.3.3:
-  version "3.3.3"
-  resolved "https://registry.yarnpkg.com/react-query/-/react-query-3.3.3.tgz#62de796e252a5e7bab058feaa1131b50daed63e6"
-  integrity sha512-ZmCSus6f8rDagJdnmZ6KZlWXOE+ZRtN25fc7KCWgukk78pDQYt7Nn9zp0EnaPsb7MQh7BaEQfAk57Qqt+8XG2Q==
+react-query@3.3.4:
+  version "3.3.4"
+  resolved "https://registry.yarnpkg.com/react-query/-/react-query-3.3.4.tgz#c187849455f4a7312a01769d94c399577ec3820e"
+  integrity sha512-+HyDOjKpo/wlJW1Z5xvFfRzViCeqHXHhhBLmtfUON/SHgoXOAHj5bOPVg4f++6ymaIFSWxAyw3y9CR2jrB0IKQ==
   dependencies:
     "@babel/runtime" "^7.5.5"
     match-sorter "^6.0.2"
