@@ -27,7 +27,7 @@
     "@types/autoprefixer": "9.7.2",
     "@types/eslint": "7.2.6",
     "@types/node-fetch": "2.5.7",
-    "@types/prettier": "2.1.5",
+    "@types/prettier": "2.1.6",
     "@types/react": "17.0.0",
     "@types/react-dom": "17.0.0",
     "@types/snowpack-env": "2.3.3",
