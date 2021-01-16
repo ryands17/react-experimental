@@ -16,7 +16,7 @@
     "tailwindcss-classnames": "2.0.0"
   },
   "devDependencies": {
-    "@snowpack/app-scripts-react": "1.12.6",
+    "@snowpack/app-scripts-react": "2.0.0",
     "@snowpack/plugin-build-script": "2.0.12",
     "@snowpack/plugin-dotenv": "2.0.5",
     "@snowpack/plugin-react-refresh": "2.3.9",
