@@ -12,7 +12,7 @@
     "react-query": "3.8.2",
     "react-router": "^6.0.0-beta.0",
     "react-router-dom": "^6.0.0-beta.0",
-    "tailwindcss": "2.0.2",
+    "tailwindcss": "2.0.3",
     "tailwindcss-classnames": "2.0.1"
   },
   "devDependencies": {
