@@ -2471,15 +2471,15 @@ combined-stream@^1.0.6, combined-stream@^1.0.8, combined-stream@~1.0.6:
   dependencies:
     delayed-stream "~1.0.0"
 
-commander@^5.1.0:
-  version "5.1.0"
-  resolved "https://registry.yarnpkg.com/commander/-/commander-5.1.0.tgz#46abbd1652f8e059bddaef99bbdcb2ad9cf179ae"
-  integrity sha512-P0CysNDQ7rtVw4QIQtm+MRxV66vKFSvlsQvGYXZWR3qFU0jlMKHZZZgw8e+8DSah4UDKMqnknRDQz+xuQXQ/Zg==
-
 commander@^6.0.0, commander@^6.2.0:
   version "6.2.0"
   resolved "https://registry.yarnpkg.com/commander/-/commander-6.2.0.tgz#b990bfb8ac030aedc6d11bc04d1488ffef56db75"
   integrity sha512-zP4jEKbe8SHzKJYQmq8Y9gYjtO/POJLgIdKgV7B9qNmABVFVc+ctqSX6iXh4mCpJfRBOabiZ2YKPg8ciDw6C+Q==
+
+commander@^7.0.0:
+  version "7.0.0"
+  resolved "https://registry.yarnpkg.com/commander/-/commander-7.0.0.tgz#3e2bbfd8bb6724760980988fb5b22b7ee6b71ab2"
+  integrity sha512-ovx/7NkTrnPuIV8sqk/GjUIIM1+iUQeqA3ye2VNpq9sVoiZsooObWlQy+OPWGI17GDaEoybuAGJm6U8yC077BA==
 
 compare-versions@^3.6.0:
   version "3.6.0"
@@ -6647,14 +6647,14 @@ table@^6.0.4:
     slice-ansi "^4.0.0"
     string-width "^4.2.0"
 
-tailwindcss-classnames@2.0.0:
-  version "2.0.0"
-  resolved "https://registry.yarnpkg.com/tailwindcss-classnames/-/tailwindcss-classnames-2.0.0.tgz#63eaf0c97441f49c5e0cc073b3d094cc7fe35989"
-  integrity sha512-F9vPWB9uxAu+J6ror/oO5hdK6yzrY5vtVJkrbSkabGAaCBHvbD7Z+EFROp25COerS16PlEfmS8Lp6jn1ck27Yg==
+tailwindcss-classnames@2.0.1:
+  version "2.0.1"
+  resolved "https://registry.yarnpkg.com/tailwindcss-classnames/-/tailwindcss-classnames-2.0.1.tgz#eb700ac35d4c62ac42be495c7d76ac9a34b57cec"
+  integrity sha512-EuURrf4swLpRzbHP3DU+A46GFJESwUysXPZiEk4sC6PYAzF8zwefxc9xU56c+E1sZVafSbfEqhYtiSMV+q/yhQ==
   dependencies:
     classnames "^2.2.6"
     colors "^1.4.0"
-    commander "^5.1.0"
+    commander "^7.0.0"
     inquirer "^7.1.0"
     lodash "^4.17.15"
     tslib "^2.0.0"
