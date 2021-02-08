@@ -6,24 +6,42 @@
   "ignoreDeps": ["react", "react-dom", "react-router", "react-router-dom"],
   "packageRules": [
     {
+      "matchUpdateTypes": [
+        "major",
+        "minor",
+        "patch",
+        "pin",
+        "digest",
+        "lockFileMaintenance",
+        "rollback",
+        "bump"
+      ],
+      "automerge": true
+    },
+    {
       "packagePatterns": ["^@types/"],
-      "groupName": "ts-types"
+      "groupName": "ts-types",
+      "automerge": true
     },
     {
       "packagePatterns": ["^@snowpack"],
-      "groupName": "snowpack"
+      "groupName": "snowpack",
+      "automerge": true
     },
     {
       "packagePatterns": ["^@testing-library", "jest", "msw"],
-      "groupName": "testing"
+      "groupName": "testing",
+      "automerge": true
     },
     {
       "packagePatterns": ["^postcss", "autoprefixer"],
-      "groupName": "postcss"
+      "groupName": "postcss",
+      "automerge": true
     },
     {
       "packagePatterns": [".*eslint"],
-      "groupName": "eslint"
+      "groupName": "eslint",
+      "automerge": true
     }
   ]
 }

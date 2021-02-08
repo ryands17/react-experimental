@@ -24,7 +24,7 @@
     "@snowpack/plugin-typescript": "1.2.1",
     "@testing-library/jest-dom": "5.11.9",
     "@testing-library/react": "11.2.5",
-    "@types/autoprefixer": "9.7.2",
+    "@types/autoprefixer": "10.2.0",
     "@types/eslint": "7.2.6",
     "@types/node-fetch": "2.5.8",
     "@types/prettier": "2.2.0",
