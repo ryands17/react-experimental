@@ -6571,10 +6571,10 @@ table@^6.0.4:
     slice-ansi "^4.0.0"
     string-width "^4.2.0"
 
-tailwindcss-classnames@2.0.3:
-  version "2.0.3"
-  resolved "https://registry.yarnpkg.com/tailwindcss-classnames/-/tailwindcss-classnames-2.0.3.tgz#4ca051666f3b6183949adc0580839ec8f421040a"
-  integrity sha512-ooEnsep4a3H23oP0YKWvq9I4y7n9O0et3XXduMgAU1GzycWczGFgVSwhwuyn4C0zEil/cjVYJGhCmxYuTKJFtg==
+tailwindcss-classnames@2.0.4:
+  version "2.0.4"
+  resolved "https://registry.yarnpkg.com/tailwindcss-classnames/-/tailwindcss-classnames-2.0.4.tgz#d5597cc2012a7a16d345edf741f73bcf9b1d822d"
+  integrity sha512-0NhbkXtvceuwZvsvCZHEZkjxEoQG2AMLv0NyMIMxhlbpoFXcvoVqnnKOWNIp0+ZX7YM4KU91teRXM0dCV1phTQ==
   dependencies:
     classnames "^2.2.6"
     colors "^1.4.0"

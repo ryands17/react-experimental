@@ -13,7 +13,7 @@
     "react-router": "^6.0.0-beta.0",
     "react-router-dom": "^6.0.0-beta.0",
     "tailwindcss": "2.0.3",
-    "tailwindcss-classnames": "2.0.3"
+    "tailwindcss-classnames": "2.0.4"
   },
   "devDependencies": {
     "@snowpack/app-scripts-react": "2.0.0",
