@@ -2,7 +2,7 @@
   "extends": ["config:base"],
   "masterIssue": true,
   "automerge": true,
-  "schedule": ["every weekend"],
+  "schedule": ["on the 3 day of the month"],
   "ignoreDeps": ["react", "react-dom", "react-router", "react-router-dom"],
   "packageRules": [
     {
