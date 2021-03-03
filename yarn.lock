@@ -6694,10 +6694,10 @@ table@^6.0.4:
     slice-ansi "^4.0.0"
     string-width "^4.2.0"
 
-tailwindcss-classnames@2.0.4:
-  version "2.0.4"
-  resolved "https://registry.yarnpkg.com/tailwindcss-classnames/-/tailwindcss-classnames-2.0.4.tgz#d5597cc2012a7a16d345edf741f73bcf9b1d822d"
-  integrity sha512-0NhbkXtvceuwZvsvCZHEZkjxEoQG2AMLv0NyMIMxhlbpoFXcvoVqnnKOWNIp0+ZX7YM4KU91teRXM0dCV1phTQ==
+tailwindcss-classnames@2.0.7:
+  version "2.0.7"
+  resolved "https://registry.yarnpkg.com/tailwindcss-classnames/-/tailwindcss-classnames-2.0.7.tgz#744b29d0f8bbb66d00cd50d7f64547fe9d2d2975"
+  integrity sha512-nA8HNhiQ69hmeDDFK6hZsi3sX+j72AS3NJH8r5mTvD65Xh4mjnd1oX0QdIZMEsmGyVFdnApr6+UMNHmAri+SzQ==
   dependencies:
     classnames "^2.2.6"
     colors "^1.4.0"
