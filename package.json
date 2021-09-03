@@ -18,7 +18,7 @@
   "devDependencies": {
     "@snowpack/app-scripts-react": "2.0.1",
     "@snowpack/plugin-build-script": "2.1.0",
-    "@snowpack/plugin-dotenv": "2.1.0",
+    "@snowpack/plugin-dotenv": "2.2.0",
     "@snowpack/plugin-react-refresh": "2.5.0",
     "@snowpack/plugin-run-script": "2.3.0",
     "@snowpack/plugin-typescript": "1.2.1",
