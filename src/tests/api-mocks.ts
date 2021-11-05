@@ -1,11 +1,7 @@
-import fetch from 'node-fetch'
 import { rest } from 'msw'
 import { setupServer } from 'msw/node'
 
-// @ts-ignore
-global.fetch = fetch
-
-const server = setupServer(
+export const server = setupServer(
   rest.get('https://jsonplaceholder.typicode.com/users', (req, res, ctx) => {
     return res(
       ctx.json([
@@ -59,6 +55,3 @@ const server = setupServer(
     )
   })
 )
-
-beforeAll(() => server.listen())
-afterAll(() => server.close())

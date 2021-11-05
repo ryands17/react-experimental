@@ -1,12 +1,13 @@
+// eslint-disable-next-line no-undef
 module.exports = {
-  future: {
-    removeDeprecatedGapUtilities: true,
-    purgeLayersByDefault: true,
-  },
-  purge: ['./src/**/*.tsx', './public/index.html'],
+  mode: 'jit',
+  purge: ['./src/**/*.html', './src/**/*.{js,jsx,ts,tsx}'],
+  darkMode: false, // or 'media' or 'class'
   theme: {
     extend: {},
   },
-  variants: {},
+  variants: {
+    extend: {},
+  },
   plugins: [],
 }

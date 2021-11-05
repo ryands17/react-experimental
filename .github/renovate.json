@@ -3,11 +3,10 @@
   "masterIssue": true,
   "automerge": true,
   "schedule": ["on the 3 day of the month"],
-  "ignoreDeps": ["react", "react-dom", "react-router", "react-router-dom"],
+  "ignoreDeps": ["react", "react-dom"],
   "packageRules": [
     {
       "matchUpdateTypes": [
-        "major",
         "minor",
         "patch",
         "pin",
@@ -24,23 +23,18 @@
       "automerge": true
     },
     {
-      "packagePatterns": ["^@snowpack"],
-      "groupName": "snowpack",
-      "automerge": true
-    },
-    {
-      "packagePatterns": ["^@testing-library", "jest", "msw"],
+      "packagePatterns": ["^@testing-library", "jest", "ts-jest", "msw"],
       "groupName": "testing",
       "automerge": true
     },
     {
-      "packagePatterns": ["^postcss", "autoprefixer"],
-      "groupName": "postcss",
+      "packagePatterns": ["^postcss", "autoprefixer", "tailwindcss"],
+      "groupName": "css",
       "automerge": true
     },
     {
       "packagePatterns": [".*eslint"],
-      "groupName": "eslint",
+      "groupName": "lint",
       "automerge": true
     }
   ]

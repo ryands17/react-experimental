@@ -1,6 +1,9 @@
-.build
-build
-web_modules
 node_modules
-.eslintcache
 .DS_Store
+dist
+dist-ssr
+*.local
+coverage
+.eslintcache
+env/
+*.log

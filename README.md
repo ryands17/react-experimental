@@ -1,13 +1,13 @@
 # React Experimental
 
-> ✨ Bootstrapped with Create Snowpack App (CSA).
+> ✨ Bootstrapped with Vite.
 
 ## Available Scripts
 
-### yarn start
+### yarn dev
 
 Runs the app in dev mode.
-Open http://localhost:8080 to view it in the browser.
+Open [http://localhost:3000/](http://localhost:3000/) to view it in the browser.
 
 The page will reload if you make edits.
 You will also see any lint errors in the console.
@@ -17,12 +17,6 @@ You will also see any lint errors in the console.
 Launches the test runner in the interactive watch mode.
 See the section about running tests for more information.
 
-### yarn lint
-
-Runs [ESLint](https://github.com/eslint/eslint/) with sane and secure defaults :)
-
 ### yarn build
 
-Builds a static copy of your site to the `build/` folder.
-
-**For the best production performance:** Add a build bundler plugin like "@snowpack/plugin-webpack" or "@snowpack/plugin-parcel" to your `snowpack.config.json` config file.
+Builds a static copy of your site to the `dist/` folder.
