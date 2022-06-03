@@ -52,7 +52,7 @@
     "ts-jest": "27.1.4",
     "typescript": "4.7.2",
     "vite": "2.9.9",
-    "vite-tsconfig-paths": "3.4.1"
+    "vite-tsconfig-paths": "3.5.0"
   },
   "prettier": {
     "semi": false,
