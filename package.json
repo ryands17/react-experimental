@@ -43,7 +43,7 @@
     "husky": "8.0.3",
     "isomorphic-fetch": "3.0.0",
     "jest": "27.5.1",
-    "lint-staged": "13.2.3",
+    "lint-staged": "15.5.2",
     "msw": "0.39.2",
     "postcss": "8.4.31",
     "prettier": "3.0.3",
